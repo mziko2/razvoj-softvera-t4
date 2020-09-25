@@ -1,96 +1,93 @@
 package ba.unsa.etf.rs.tut4;
+import javafx.beans.property.SimpleDoubleProperty;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.collections.ObservableList;
 
-import java.util.ArrayList;
+import java.util.List;
+
 public class Artikal {
-    private String sifra;
-    private String naziv;
-    private double cijena;
+    private SimpleStringProperty sifra,naziv;
+    private SimpleDoubleProperty cijena;
 
-    String s;
-
-
-
-    public Artikal(String ulaz) {
-        String[] ulazi = ulaz.split(",");
-        setSifra(ulazi[0]);
-        setNaziv(ulazi[1]);
-        setCijena((int) Double.parseDouble(ulazi[2]));
-
-    }
-
-    public double getCijena() {
-        return cijena;
-    }
-
-
-    public void setCijena(double cijena) {
-        this.cijena =  cijena;
-        if (cijena <0) {
-            throw new IllegalArgumentException("Unjeli se pogresnu cijenu");
-        }
-    }
-
-    public Artikal(String hlb, String hljeb, double v) {
-
-    }
-
-    public String getSifra() {
-
-        return sifra;
+    public Artikal(String sifra, String naziv, double cijena) {
+        this.setSifra(sifra);
+        this.setNaziv(naziv);
+        this.setCijena(cijena);
     }
 
     public void setSifra(String sifra) {
-
-        this.sifra = sifra;
-        if (sifra == null || sifra.isEmpty()) {
-            throw new IllegalArgumentException("Unjeli ste pogresnu sifru");
-        }
-    }
-
-    public String getNaziv() {
-
-        return naziv;
+        if(sifra.contentEquals("")) throw new IllegalArgumentException("Šifra je prazna");
+        this.sifra= new SimpleStringProperty(sifra);
     }
 
     public void setNaziv(String naziv) {
-
-        this.naziv = naziv;
-        if (naziv == null || naziv.isEmpty()) {
-            throw new IllegalArgumentException("Unjeli ste pogresan naziv");
-        }
-
-
+        if(naziv.contentEquals("")) throw  new IllegalArgumentException("Naziv je prazn");
+        this.naziv= new SimpleStringProperty(naziv);
     }
 
+    public void setCijena(double cijena) {
+        if(cijena<=0) throw  new  IllegalArgumentException("Cijena je negativna");
+        this.cijena = new SimpleDoubleProperty(cijena);
+    }
 
+    public String getSifra() {
+        return sifra.get();
+    }
+
+    public SimpleStringProperty sifraProperty() {
+        return sifra;
+    }
+
+    public String getNaziv() {
+        return naziv.get();
+    }
+
+    public SimpleStringProperty nazivProperty() {
+        return naziv;
+    }
+
+    public double getCijena() {
+        return cijena.get();
+    }
+
+    public SimpleDoubleProperty cijenaProperty() {
+        return cijena;
+    }
+
+    public String ArtiklIspis() {
+
+        return this.naziv.get()+", "+this.sifra.get()+", "+ this.cijena.get()+"\n";
+    }
     @Override
-    public String toString() {
-        return sifra + ", " + naziv + ", " + cijena;
+    public String toString() { //zbog potreba choiceboxa
+        return this.sifra.get();
     }
 
-    public boolean equals(Object o){
-        Artikal artikal = (Artikal)o;
-        if(!this.sifra.equals(artikal.getSifra())) return false;
-        if(!this.naziv.equals(artikal.getNaziv())) return false;
-        if(this.cijena!=artikal.getCijena()) return false;
-        return true;
-
-
-    }
-    static void izbaciDuplikate(ArrayList<Artikal> lista){
-
-        for(int i=0;i<lista.size();i++){
-            for(int j=0;j<lista.size();j++){
-                if(i!=j){
-                    if(lista.get(i).equals(lista.get(j))){
-                        lista.remove(j);
-                    }
-
+    public  static <E>  void izbaciDuplikate (List<E> lista){
+        for (int i=0;i<lista.size();i++){
+            for (int j = i+1; j <lista.size() ; j++) {
+                if(lista.get(i)!=lista.get(j) && lista.get(i).equals(lista.get(j))){
+                    lista.remove(j);
+                    j--;
                 }
             }
         }
+    }
+    public static String IspisiArtikle(ObservableList<Artikal> ar){
+        String s="";
+        for (Artikal a :ar )
+            s+= a.ArtiklIspis();
+        return s;
+    }
 
+    @Override
+    public boolean equals(Object obj) {
+
+        if(obj!=null && obj instanceof  Artikal){
+            Artikal artikal = (Artikal)obj;
+            return this.getCijena()==artikal.getCijena()  && this.getNaziv().contentEquals(artikal.getNaziv())
+                    && this.getSifra().contentEquals(artikal.getSifra());
+        }
+        return  false;
     }
 }
-
-
