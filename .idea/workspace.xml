@@ -23,12 +23,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db347ce0-b8c3-49c0-a282-84498320ae9b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tut4/ControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rs/tut4/ArtikalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rs/tut4/ArtikalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rs/tut4/RacunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rs/tut4/RacunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tut4/ArtikalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tut4/ArtikalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tut4/RacunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tut4/RacunTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,9 +73,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/Java/javafx-sdk-11.0.2/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.19655173" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\razvoj-softvera-t4\resources\fxml" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -103,7 +123,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601029679965</updated>
-      <workItem from="1601029681392" duration="3970000" />
+      <workItem from="1601029681392" duration="5329000" />
     </task>
     <task id="LOCAL-00001" summary="pocetni commit">
       <created>1601029703046</created>
@@ -133,7 +153,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601034310162</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="napravljen kontroler&#10;napravljen main">
+      <created>1601036546693</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601036546693</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,41 +182,58 @@
     <MESSAGE value="Prepravljene klase Artikal i racun" />
     <MESSAGE value="Obrsian controller, pravit cemo novi po MVC" />
     <MESSAGE value="Sitne prepravke na fxml" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sitne prepravke na fxml" />
+    <MESSAGE value="napravljen kontroler&#10;napravljen main" />
+    <option name="LAST_COMMIT_MESSAGE" value="napravljen kontroler&#10;napravljen main" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601029949126">
+    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601036747489">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601029949126" />
+    <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1601036747489" />
     <state x="722" y="154" key="FileChooserDialogImpl" timestamp="1601029904775">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601029904775" />
-    <state width="723" height="208" key="GridCell.Tab.0.bottom" timestamp="1601034138791">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1601037493030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601034138791" />
-    <state width="723" height="208" key="GridCell.Tab.0.center" timestamp="1601034138789">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601037493030" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1601037493030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601034138789" />
-    <state width="723" height="208" key="GridCell.Tab.0.left" timestamp="1601034138788">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601037493030" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1601037493030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601034138788" />
-    <state width="723" height="208" key="GridCell.Tab.0.right" timestamp="1601034138790">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601037493030" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1601037493030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601034138790" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601037493030" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1601037493031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601037493031" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1601037493031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1601037493031" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1601037493031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1601037493031" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1601037493031">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1601037493031" />
     <state x="598" y="67" key="Maven.ArtifactSearchDialog" timestamp="1601029970118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="598" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1601029970118" />
-    <state x="498" y="0" key="SettingsEditor" timestamp="1601030063693">
+    <state x="498" y="0" key="SettingsEditor" timestamp="1601037014733">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601030063693" />
+    <state x="498" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601037014733" />
     <state x="722" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601029707980">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
