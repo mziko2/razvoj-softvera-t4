@@ -23,28 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db347ce0-b8c3-49c0-a282-84498320ae9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_testfx_testfx_junit5_4_0_15_alpha.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tut4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Artikal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Artikal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Racun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Racun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tut4/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Artikal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Artikal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Controller$Stavka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Racun$Stavka.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Racun.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ba/unsa/etf/rs/tut4/Racun.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rs/tut4/ArtikalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/ba/unsa/etf/rs/tut4/ArtikalTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +111,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1601029679965</updated>
-      <workItem from="1601029681392" duration="2686000" />
+      <workItem from="1601029681392" duration="3043000" />
     </task>
     <task id="LOCAL-00001" summary="pocetni commit">
       <created>1601029703046</created>
@@ -133,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601029703046</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Prepravljene klase Artikal i racun">
+      <created>1601033783618</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601033783618</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +146,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pocetni commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="pocetni commit" />
+    <MESSAGE value="Prepravljene klase Artikal i racun" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepravljene klase Artikal i racun" />
   </component>
   <component name="WindowStateProjectService">
     <state x="447" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601029949126">
@@ -163,6 +158,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="154" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601029904775" />
+    <state width="724" height="208" key="GridCell.Tab.0.bottom" timestamp="1601033912643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="208" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601033912643" />
+    <state width="724" height="208" key="GridCell.Tab.0.center" timestamp="1601033912643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="208" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601033912643" />
+    <state width="724" height="208" key="GridCell.Tab.0.left" timestamp="1601033912643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="208" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601033912643" />
+    <state width="724" height="208" key="GridCell.Tab.0.right" timestamp="1601033912643">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="724" height="208" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601033912643" />
     <state x="598" y="67" key="Maven.ArtifactSearchDialog" timestamp="1601029970118">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
